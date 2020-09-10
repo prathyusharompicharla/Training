@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <style>
+            /* Modify the background color */
+            .navbar-custom {
+              background-color: pink;
+            }
+            .navbar-text {
+              color: black;
+              font-size: 30px
+            }
+            body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+ .footer {
+  
+     position: fixed;
+  
+     height: 55px;
+  
+     bottom: 0;
+  
+     color:blueviolet;
+  
+     padding-top:5px;
+  
+     width: 100%;
+  
+     text-align:center;
+  
+ }
+  
+ </style>
+
+          </style>
+    </head>
+    <body>
+        <nav  class="navbar navbar-custom">
+            <a class="navbar-text" href="home.html">VinCloud Training</a>
+         
+          <ul class="nav navbar-nav navbar-right" style="font-size: 20px;">
+            <li class="active"><a href="home.html">Home</a></li> 
+            <li class="active"><a  href="process.html">How its work </a>
+            </li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="signup.html"><span class="glyphicon glyphicon-log-in"></span> signin</a></li>
+          </ul>
+          
+      </nav>
+        <img src="contact.jpg" alt="contact-us" width="1500" height="300">
+    <h3 style="text-align: center;"><b> HAVE SOME QUESTIONS</b></h3>
+    <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="Email">Email</label>
+          <input type="text" id="Email" name="Email" placeholder="Your Email..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div>
+        
+        <footer class="footer">
+ 
+            <div class="container">
+       
+            <p>&copy; Company Name | Privacy Policy | Terms of Service</p>
+       
+            </div>
+       
+          </footer>
+      </div>
+    </body>
+   
+</html>
